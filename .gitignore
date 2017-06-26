@@ -10,4 +10,24 @@ buildNumber.properties
 
 !/.mvn/wrapper/maven-wrapper.jar
 
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+.externalToolBuilders/
+
+*.launch
+
+.project
+
+.classpath
+
     
