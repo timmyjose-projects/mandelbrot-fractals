@@ -34,12 +34,14 @@ Assuming your are inside the project root,
 
 ```
 $ mvn clean && mvn compile
-``
+
+```
 
 and, optionally,
 
 ```
 $ mvn package
+
 ```
 
 if you want to generate a JAR file. 
@@ -88,6 +90,7 @@ Macushla:mandelbrot-fractals z0ltan$ mvn exec:java -Dexec.args="my-mandelbrot.pn
 [INFO] Finished at: 2017-06-27T17:02:44+05:30
 [INFO] Final Memory: 7M/26M
 [INFO] ------------------------------------------------------------------------
+
 ```
 
 And the following image file is generated from these parameters:
