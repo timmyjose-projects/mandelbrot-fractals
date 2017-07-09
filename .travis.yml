@@ -1,11 +1,9 @@
-language: rust
-rust:
-    - stable
-    - nightly
-    - beta
-matrix:
-    allow_failures:
-        -rust : nightly
+language: java
+jdk:
+    - oraclejdk8
+    - oraclejdk9
+    - openjdk8
+    - openjdk9
+ 
 sudo: false
 dist: trusty
-
